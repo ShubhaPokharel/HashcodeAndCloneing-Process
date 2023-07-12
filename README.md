@@ -1,6 +1,6 @@
 # HashcodeAndCloneing-Process
 
-# Hashcode
+## Hashcode
 
 - Whenever we create an object, JVM will give a unique number to that object.
 
@@ -75,10 +75,22 @@ We can also use '.hashcode()'.
 
 
 
-###### To convert binary format to decimal number :
+#### To convert binary format to decimal number :
 
 
+To convert binary format to decimal number we have to use the powers of 2.
 
+Note: 
+
+- 0 is disabled
+- 1 is enabled
+
+  64 32 16 8 4 2 1
+  
+           1  0 0 1  = 9
+
+
+  
    
 
 
