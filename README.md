@@ -91,6 +91,62 @@ Note:
 
 
 
+  ## Cloneing process
+
+  Thr process of creating exactly the duplicate object is called cloneing process. To make the cloneing process we need to implement cloneable interface.
+
+  The Cloneable interface is marker interface.
+  
+  The marker interface contains no methods but our class receives some capabilities.
+
+
+  Example:
+
+  class Test{
+
+      int num1 = 100;
+
+      int num2 = 200;
+
+      public static void main(String[]  args){
+
+             Test t = new Test();
+
+             System.out.println( t.num1 + " " + t.num2 );
+
+             Test copy = new Test();
+
+             System.out.println(copy.num1 + " " + copy.num2 );
+      }
+  }
+
+
+  The example above is not correct. Initially cloning for your classes is not possible. JVM will provide the cloning feautures automatically though.
+
+
+  Correct Example:
+  
+ class Test implements Cloneable{
+
+      int num1 = 100;
+
+      int num2 = 200;
+
+      public static void main(String[]  args) throws Exception {
+
+             Test t = new Test();
+
+             System.out.println( t.num1 + " " + t.num2 );
+
+             Test copy = new Test();
+
+             System.out.println(copy.num1 + " " + copy.num2 );
+      }
+  }
+  
+
+
+
 
   
    
