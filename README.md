@@ -8,7 +8,9 @@
 
  To print the hashcode we have 2 ways:
 
- 1. Print the reference variable
+ 1.
+
+ Print the reference variable
 
      Ex:
 
@@ -23,4 +25,6 @@
          }
     
      }
+
+
 
