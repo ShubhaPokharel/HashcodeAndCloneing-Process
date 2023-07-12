@@ -37,7 +37,49 @@ We can also use '.hashcode()'.
   Example:
 
   
+  class Test{
 
+     public static void main(String[] args){
+
+        Test t1 = new Test();
+
+         System.out.println(t1);
+
+        Test t2 = new Test();
+  
+        System.out.println(t2.hashcode());
+  
+     }
+  
+  }
+
+
+## Number System
+
+1. Binary Numbers
+
+ - numbers that are 0 and 1
+     
+2. Octal Number
+
+ - numbers from 0-7 : 0 1 2 3 4 5 6 7
+     
+3. Decimal numbers
+
+- numbers from 0-9 : 0 1 2 3 4 5 6 7 8 9 
+   
+5. Hexa Decimal Numbers
+
+- numbers 0-9 and letters a-f
+
+
+
+
+#### To convert binary format to decimal number :
+
+
+
+   
 
 
 
