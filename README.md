@@ -1,4 +1,4 @@
-# HashcodeAndCloneing-Process
+# HashcodeAndCloning-Process
 
 ## Hashcode
 
