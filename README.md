@@ -28,8 +28,15 @@
 
 
 2.
-hgfghfghfgh
-hjghjghjghj
+
+We can also use '.hashcode()'.
+
+- '.hashcode()' will convert the hexa decimal number to decimal number.
+
+
+  Example:
+
+  
 
 
 
