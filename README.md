@@ -75,7 +75,7 @@ We can also use '.hashcode()'.
 
 
 
-#### To convert binary format to decimal number :
+###### To convert binary format to decimal number :
 
 
 
