@@ -91,9 +91,9 @@ Note:
 
 
 
-  ## Cloneing process
+  ## Cloning process
 
-  Thr process of creating exactly the duplicate object is called cloneing process. To make the cloneing process we need to implement cloneable interface.
+  Thr process of creating exactly the duplicate object is called cloning process. To make the cloning process we need to implement cloneable interface.
 
   The Cloneable interface is marker interface.
   
